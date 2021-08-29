@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Paisajes de Catamarca</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Paisajes de Catamarca</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hola">¡Hola!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#historia">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#curiosidades">Curiosidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#turismo">Turismo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="inicio">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/slide2.jpg" class="d-block w-100" alt="paisaje" height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/slide3.jpg" class="d-block w-100" alt="paisaje" height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/slide5.jpg" class="d-block w-100" alt="paisaje" height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/slide6.jpg" class="d-block w-100" alt="paisaje" height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/slide7.jpg" class="d-block w-100" alt="paisaje" height="600">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <main>
+        <section class="bg-dark text-white" id="hola">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-lg-6 mt-5 px-3 text-center">
+                        <h1 class="title-size">¡Hola!</h1>
+                        <h3 class="fw-lighter font-size">Mi nombre es Lourdes y estoy formandome como desarrolladora web
+                            front end. Este es mi primer proyecto realizado con Booststrap para lo cual decidí crear una
+                            landing page con la temática de mi provincia natal: Catamarca.</h3>
+                        <h3 class="fw-lighter font-size">Acá encontrarás información de su historia, curiosidades,
+                            comidas
+                            típicas y costumbres, también sobre los lugares que podes ir a visitar y hacer turismo.</h3>
+                        <h3 class="fw-lighter pb-3 font-size">Te invito que conozcas un poco mis pagos, y si te gustó el
+                            lugar, ¡será bienvenida tu visita!</h3>
+                    </div>
+                    <div class="col-lg-6 my-5 d-flex justify-content-center align-items-center">
+                        <img class="img-fluid img-thumbnail" src="assets/img/yo.jpeg" alt="fotoDeUnaPersona">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-white text-dark pt-5" id="historia">
+            <h1 class="title-size text-center">Historia</h1>
+            <h3 class="fw-normal px-3 text-center font-size">La historia de mi provincia tiene un inicio mucho anterior
+                al de la colonización, ya que en ella hubo asentamientos de poblaciones humanas desde el año 3000 a.C.
+                según datan los registros arqueológicos. En ésta sección voy a compartir con Uds. un resúmen de su
+                historia contando sus fundaciones y hechos más destacados.</h3>
+            <div class="accordion accordion-flush mt-5" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Antes de la llegada de los españoles
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">La sedentarización de las poblaciones de esta provincia ocurrió en
+                            el territorio hace aproximadamente 2000 años antes del presente, tal cual lo demuestran los
+                            hallazgos de ruinas de esas épocas en el sitio de Palo Blanco. Aproximadamente desde el
+                            siglo XI, este territorio estuvo poblado por distintas parcialidades de la etnia de los
+                            paziocas (diaguitas), cuyo idioma era el cacán correspondiendo en gran medida a la Cultura
+                            Belén. Durante un breve período (ca. 1460 ~ 1555) los incas incorporaron las zonas
+                            occidentales de Catamarca al Collasuyu. La construcción más significativa dejada por los
+                            incas en Catamarca es el hoy llamado Pucará de Aconquija, una de las fortalezas más grandes
+                            del sur del Tawantinsuyu.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Fundaciones (primera parte)
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Los españoles arribaron al territorio actualmente catamarqueño hacia
+                            1536 con la expedición de Diego de Almagro (El Viejo) quien tras recorrer los Valles
+                            Calchaquíes se dirigió rumbo a Chile a través del Paso de San Francisco. La primera
+                            fundación española en territorio catamarqueño fue la de San Pedro Mártir realizada en 1554
+                            por Francisco de Aguirre en el valle de Conando (actual departamento Andalgalá), pero no
+                            perduró. La gobernación de Chile se extendía cien leguas hacia el este de la cordillera de
+                            Los Andes, abarcando una extensa parte de la actual provincia de Catamarca. En esa zona, por
+                            mandato del gobernador de Chile García de Mendoza en el 1558, el capitán Juan Pérez de
+                            Zurita fundó Londres de la Nueva Inglaterra, en el valle de Quimivil (departamento Belén),
+                            nombre puesto en honor a la esposa inglesa del rey Felipe II, María Tudor. El poblado fue
+                            trasladado en 1561 al valle de Conando (departamento Andalgalá), con el nombre de ciudad
+                            Villagra, pero debió ser abandonada al año siguiente por una rebelión de los diaguitas.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Fundaciones (segunda parte)
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Una nueva fundación fue realizada en 1607, a orillas del río
+                            Belén por el teniente de gobernador de La Rioja Gaspar Doncel, por orden del gobernador
+                            del Tucumán Alonso de Ribera con el nombre de San Juan Bautista de la Ribera en el sitio
+                            de la actual ciudad de Belén. En 1612, nuevamente fue trasladada la ciudad cerca de su
+                            actual emplazamiento a orillas del río Quimivil por disposición del gobernador Luis de
+                            Quiñones Osorio, llamándola San Juan Bautista de la Paz. Después del gran alzamiento
+                            calchaquí de 1630, la ciudad debió ser refundada por el general Jerónimo Luis de Cabrera
+                            en 1633, en el paraje de Pomán, por mandato del gobernador Felipe de Albornoz,
+                            denominándola San Juan Bautista de la Rivera. El gobernador Fernando de Mendoza y Mate
+                            de Luna trasladó la ciudad al valle de Catamarca, por mandato real, el 5 de julio de
+                            1683 dándole el nombre de San Fernando del Valle de Catamarca donde la cuidad fue
+                            creciendo hasta la actualidad.
+                            ​</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            Independencia nacional
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Acaecida la Revolución de Mayo del 25 de mayo de 1810, Catamarca
+                            se adhirió inmediatamente a ella, y los integrantes del cabildo eligieron como
+                            representante para la Junta Grande a su comandante de armas Francisco de Acuña, pero
+                            dado que su diploma fue rechazado por las autoridades revolucionarias dada su condición
+                            de español, fue elegido el criollo José Antonio Olmos de Aguilera, para incorporarse a
+                            la Junta de Buenos Aires. Tras la Declaración de la Independencia, el 9 de julio de
+                            1816, el actual territorio catamarqueño se vio envuelto en guerras civiles. Por decreto
+                            del 8 de octubre de 1814 el director supremo, Gervasio Antonio de Posadas, dividió la
+                            intendencia de Salta del Tucumán y creó la Gobernación de la Intendencia del Tucumán,
+                            con asiento en San Miguel de Tucumán y cuya jurisdicción integraron Catamarca y Santiago
+                            del Estero. Tras la disolución del Directorio y del Congreso, el gobernador intendente
+                            de Tucumán, coronel Bernabé Aráoz, erigió el 22 de marzo de 1820, la República Federal
+                            del Tucumán, integrada por los territorios que formaban la gobernación intendencia
+                            (Santiago del Estero, Catamarca y Tucumán).
+                            ​</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            Independencia provincial
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">En 1563 se creó la gobernación del Tucumán dependiente de la
+                            Real Audiencia de Charcas en materia judicial y del virreinato del Perú en asuntos de
+                            gobierno, incorporando el actual territorio catamarqueño. Hasta 1821, los territorios de
+                            Tucumán y Catamarca permanecieron unidos. Hasta que el 25 de agosto de dicho año,
+                            Nicolás Avellaneda y Tula, quien presidía los destinos de Catamarca a nombre de la
+                            República de Tucumán, convocó en la Casa Municipal a lo más selecto de la sociedad
+                            catamarqueña. Fue entonces cuando declaró, solemnemente, que Catamarca y su territorio
+                            eran tan libres como todos los demás pueblos constituidos en provincias. Así se disolvió
+                            la dependencia con la República de Tucumán, y se eligió como primer gobernador a Nicolás
+                            Avellaneda y Tula. Entre los catamarqueños que lucharon por la autonomía de la provincia
+                            debe señalarse a Eusebio Gregorio Ruzo, Miguel Díaz de la Peña, Francisco Rafael Augier,
+                            el coronel Marcos Antonio Figueroa, el lic. Pío Isaac Acuña y su hermano Tadeo Acuña. La
+                            provincia terminó de unificarse en 1853, cuando se sancionó la Constitución de la Nación
+                            Argentina.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            Población actual
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Históricamente la provincia siempre ha sido una de las menos
+                            pobladas de la Argentina. La escasez de agua y la falta de una buena red de vías de
+                            comunicación que la vincularan con el resto del país, hicieron que Catamarca reciba
+                            relativamente pocos inmigrantes europeos y que tuviera un crecimiento demográfico muy lento
+                            con una continua emigración de sus habitantes hacia otras provincias. Esta situación ha
+                            comenzado a revertirse en los últimos 30 años, pasando a contar la provincia con una
+                            población mayoritariamente joven, un regular crecimiento vegetativo y un movimiento
+                            migratorio de saldo positivo lo que la pone en un nuevo proceso de crecimiento poblacional,
+                            social y económico. El censo nacional 2010 estableció una población de 367.820 habitantes y
+                            una densidad de 3,78 habitantes/km². Su capital, San Fernando del Valle de Catamarca, con
+                            140.741 habitantes, es la ciudad más poblada.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light text-dark py-5" id="curiosidades">
+            <h1 class="title-size text-center">Curiosidades</h1>
+            <h3 class="fw-normal px-3 text-center font-size">En esta sección quiero compartiles curiosidades y datos de
+                interés: comidas, bailes, costumbres y por qué no? algunas leyendas de mi pago.</h3>
+            <div class="container">
+                <div class="row mt-5 d-flex">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                        <h4 class="text-center">Comidas</h4>
+                        <img class="img-fluid border border-dark border-2 rounded" src="assets/img/comida.jpg"
+                            alt="comida">
+                    </div>
+                    <div class="col-lg-6 px-3 text-center d-flex justify-content-center align-items-center mt-3">
+                        <h4 class="fw-lighter font-size">La rica diversidad de productos y sabores de la gastronomía
+                            catamarqueña incluye entre sus mejores exponentes los tamales, la tortilla, tulpo, locro,
+                            matambre relleno con verduras, quesillo, poliada, jugote, dulce de zapallo y la exquisita
+                            empanada, que lleva carne cortada con cuchillo, papa, cebolla, ajo picado, grasa de pella,
+                            pasas de uva sin semilla, aceitunas verdes picadas, sal, pimienta, ají molido y huevo.
+                        </h4>
+                    </div>
+                </div>
+                <div class="row mt-5 d-flex flex-column-reverse flex-lg-row">
+                    <div class="col-lg-6 px-3 text-center d-flex justify-content-center align-items-center mt-3">
+                        <h4 class="fw-lighter font-size">En cuanto a las bebidas, se destacan la aloja (una especie de
+                            cerveza de algarroba blanca), la añapa (jugo de algarroba blanca o negra molida con agua y
+                            azúcar) y el arrope, un refrescante jugo de uva y tuna que, en algunos casos, se prepara con
+                            chañar o mistol.
+                        </h4>
+                    </div>
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                        <h4 class="text-center">Bebidas</h4>
+                        <img class="img-fluid border border-dark border-2 rounded" src="assets/img/bebida.jpg"
+                            alt="comida">
+                    </div>
+                </div>
+                <div class="row mt-5 d-flex">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                        <h4 class="text-center">Esquila de vicuñas</h4>
+                        <img class="img-fluid border border-dark border-2 rounded" src="assets/img/esquila.jpg"
+                            alt="comida">
+                    </div>
+                    <div class="col-lg-6 px-3 text-center d-flex justify-content-center align-items-center mt-3">
+                        <h4 class="fw-lighter font-size">En Catamarca, la recolección de lana es parte de una tradición
+                            ancestral llamada Chaku. Antes de empezar los participantes llevan adelante un ritual que se
+                            llama Corpachada. Una vez que se ha extraído la lana, los animales son liberados y vuelven a
+                            su vida libre y silvestre. Quienes participaron de la esquirla del Chaku realizan un pozo en
+                            la tierra muy grande para corpachar. Esto quiere decir darle de comer y beber a la tierra en
+                            agradecimiento a los recursos que ha ofrecido a la comunidad.
+                        </h4>
+                    </div>
+                </div>
+                <div class="row mt-5 d-flex flex-column-reverse flex-lg-row">
+                    <div class="col-lg-6 px-3 text-center d-flex justify-content-center align-items-center mt-3">
+                        <h4 class="fw-lighter font-size">El chuscharuto o "corte del primer cabello" es una festividad
+                            tradicional en la cual se realiza la primera presentación de la hija o hijo de una familia a
+                            la comunidad, bajo las bendiciones de la Pachamama. Los invitados realizan el primer corte
+                            de cabello a la niña o niño entregando en retribución dinero a la familia, el que se destina
+                            a los gastos de la crianza del menor.
+                        </h4>
+                    </div>
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                        <h4 class="text-center">El Chuscharuto</h4>
+                        <img class="img-fluid border border-dark border-2 rounded" src="assets/img/chuscharuto.jpg"
+                            alt="comida">
+                    </div>
+                </div>
+                <div class="row mt-5 d-flex">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                        <h4 class="text-center">Zambas y chacareras</h4>
+                        <img class="img-fluid border border-dark border-2 rounded" src="assets/img/folklore.jpg"
+                            alt="comida">
+                    </div>
+                    <div class="col-lg-6 px-3 text-center d-flex justify-content-center align-items-center mt-3">
+                        <h4 class="fw-lighter font-size">Catamarca es tierra de inspiración para escritores y poetas.
+                            Desde su mitica zamba "Paisaje de Catamarca" de Polo Gimenez, la provincia vuelve a ser
+                            evocada en chacareras, gatos, zambas, vidalitas y cuecas algunas de ellas son: Coplas del
+                            valle, Belén en los carnavales, Tiempo i mama, Zamba de los mineros, La catamarqueñita,
+                            Catamarca me conoce, Zamba de las Juntas, Camino a El Rodeo, Recuerdos del valle entre
+                            otras.
+                        </h4>
+                    </div>
+                </div>
+                <div class="row mt-5 d-flex flex-column-reverse flex-lg-row">
+                    <div class="col-lg-6 px-3 text-center d-flex justify-content-center align-items-center mt-3">
+                        <h4 class="fw-lighter font-size">El duende, la mulánima, la virgen, la salamanca, los espantos
+                            son parte de los mitos y leyendas que persisten de generación en generación y se fueron
+                            forjando bajo el sincretismo entre las creencias de originarios y españoles. Son cuentos
+                            entretenidos de relatos fantásticos en donde se explican el origen de distintos elementos de
+                            la naturaleza o simplemente buscan una explicación a sucesos que hoy en dia ya no son un
+                            misterio.
+                        </h4>
+                    </div>
+                    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                        <h4 class="text-center">Mitos y leyendas</h4>
+                        <img class="img-fluid border border-dark border-2 rounded" src="assets/img/mitos.jpg"
+                            alt="comida">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-secondary text-white pt-5" id="turismo">
+            <h1 class="title-size text-center">Turismo</h1>
+            <h3 class="fw-normal px-3 text-center font-size">Ahora quiero mostrarte algunos de los lugares que podes recorrer
+                cuando visites Catamarca. La provincia cuenta con un paisaje rico y variado, el segundo pico más alto de
+                Argentina, volcanes y un recorrido arqueológico único.</h3>
+            <div class="row row-cols-1 row-cols-md-2 g-4 py-5 px-3">
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/portezuelo.jpg" class="card-img-top img-fluid" alt="Portezuelo">
+                        <div class="card-body bg-secondary">
+                            <h5 class="card-title">Cuesta del Portezuelo</h5>
+                            <p class="card-text">La cuesta del Portezuelo es un camino sinuoso ubicado en el departamento Valle Viejo y es uno de los atractivos turísticos más visitados de la provincia, debido a su alto valor paisajístico y a su cercanía a la ciudad capital.​ Desde los puntos más elevados, se practica aladeltismo y parapente.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/poncho.jpg" class="card-img-top img-fluid" alt="poncho">
+                        <div class="card-body bg-secondary">
+                            <h5 class="card-title">Fiesta del Poncho</h5>
+                            <p class="card-text">Es considerada como la “Expresión cultural más importante de Catamarca”, se realizada en las vacaciones de Julio en la Capital, en la misma se destaca la muestra artesanal que cuenta con la presencia de artesanos de todo el país que ofrecen sus trabajos plenos de calidad.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/volcan.jpg" class="card-img-top img-fluid" alt="Volcan">
+                        <div class="card-body bg-secondary">
+                            <h5 class="card-title">Ojos del Salado</h5>
+                            <p class="card-text">Ubicado al oeste de Fiambalá con una altura de 6891,3 m.s.n.m. es considerado el volcán más alto del mundo y es el segundo pico más alto de Argentina. Junto a él se encuentra el monte Pissis, con 1 km menos de altura, que si bien recibe el nombre de monte también se trata de un volcán.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/pomez.jpg" class="card-img-top img-fluid" alt="Pomez">
+                        <div class="card-body bg-secondary">
+                            <h5 class="card-title">Campo de Piedra Pómez</h5>
+                            <p class="card-text">Se encuentra en el departamento Antofagasta de la Sierra y su nombre describe el paisaje caracterizado por la extensa acumulación de piedra pómez, que luego de milenios de procesos de erosión adquirió la morfología que hoy presenta. Quienes lo conocen afirman que es un paisaje de otro planeta.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/shincal.jpg" class="card-img-top img-fluid" alt="Shincal">
+                        <div class="card-body bg-secondary">
+                            <h5 class="card-title">El Shincal de Quimivil</h5>
+                            <p class="card-text">Es una ciudad precolombina incaica que se encuentra en el departamento de Belén y es uno de los espacios más significativos de la presencia de los Incas en el Noroeste argentino. El área está compuesta por diversas estructuras entre las cuales se encuentra el ushnu o plataforma ceremonial cuadrangular.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/termas.jpg" class="card-img-top img-fluid" alt="Termas">
+                        <div class="card-body bg-secondary">
+                            <h5 class="card-title">Termas de Fiambalá</h5>
+                            <p class="card-text">Es un complejo de aguas termales ubicadas en el departamenti Tinogasta. Posee un total de 14 piletones en pendiente en los que se vierten casi naturalmente aguas termales de diferente temperatura. Las aguaste termales son recomendadas para curar enfermedades como artritis, artrosis, psoriasis, reumatismos, etc. .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-dark text-white pt-5" id="contacto">
+            <h1 class="title-size text-center">Contacto</h1>
+            <h3 class="fw-normal px-3 text-center font-size">¡Muchas gracias por haber visitado mi página! Por cualquier duda o consulta me encuentro a disposición, abajo de éste párrafo encontrarás los medios para contactarme.</h3>
+            <div class="text-center mt-5 h1">
+                <a href="https://github.com/lourdeslunaweb" target="_blank" class="text-white"><i class="bi bi-github mx-3"></i></a>
+                <a href="https://www.linkedin.com/in/lourdes-luna-web/" target="_blank" class="text-white"><i class="bi bi-linkedin mx-3"></i></a>
+                <a href="mailto:lourdeslunaweb@gmail.com" class="text-white"><i class="bi bi-envelope mx-3"></i></a>
+            </div>
+            <div class="h4 mt-5 text-center pb-3">
+                <p>Hecho con 💚 por Lourdes</p>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+</html>
